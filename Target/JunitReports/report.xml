@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="61.711">
+<testcase classname="CoinMarket cap application functionality" name="Verify that in CoinMarket cap application user can able to collect the coins and compare after with the filtered coins." time="59.266">
+<failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[When user launch the Coin cap application...................................passed
+And user clicks on ShowRows DropDown........................................passed
+Then user Fetching the coins values and comparing the results using assert..failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at StepDefinitionPackage.StepDefinitionClass.user_Fetching_the_coins_values_and_comparing_the_results_using_assert(StepDefinitionClass.java:108)
+	at ✽.user Fetching the coins values and comparing the results using assert(file:///C:/Users/anser/eclipse-workspace/CoinMarketProject/src/test/java/Resources/FeatureFile.feature:6)
+]]></failure>
+</testcase>
+</testsuite>
